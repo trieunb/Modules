@@ -1,0 +1,7 @@
+<?php
+
+Route::group(['module' => 'ModuleUCtitle', 'namespace' => 'ModuleNamespace\Controllers'], function() {
+
+    Route::resource('ModuleTitle', 'ModuleUCtitleController');
+
+});

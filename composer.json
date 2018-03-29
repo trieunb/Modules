@@ -1,0 +1,15 @@
+{
+    "name": "ans-asia/modules",
+    "description": "A package module of team ans-asia build for dev",
+    "require-dev": {
+        "laravel": "1.0"
+    },
+    "authors": [
+        {
+            "name": "Trieunb Nguyen",
+            "email": "trieunb@ans-asia.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
