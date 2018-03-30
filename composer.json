@@ -1,5 +1,5 @@
 {
-    "name": "trieunb-nguyen/modules",
+    "name": "trieu-nguyen/modules",
     "description": "A package module of team ans-asia build for dev",
     "require-dev": {
         "laravel": "1.0"
