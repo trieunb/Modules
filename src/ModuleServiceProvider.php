@@ -1,6 +1,6 @@
 <?php
 
-namespace AnsAsia\Modules;
+namespace Trieunb\Modules;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Filesystem\Filesystem;

@@ -1,5 +1,5 @@
 <?php
-namespace  AnsAsia\Modules\Console;
+namespace  Trieunb\Modules\Console;
 use Illuminate\Console\GeneratorCommand;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputArgument;
