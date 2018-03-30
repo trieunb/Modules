@@ -1,23 +1,24 @@
 {
     "name": "trieunb/modules",
     "description": "A package module of team ans-asia build for dev",
+    "homepage": "https://github.com/trieunb/Modules",
+    "license": "MIT",
     "version": "1.0.1",
-    "prefer-stable": true,
     "authors": [
         {
             "name": "Trieu Nguyen",
             "email": "trieunb@ans-asia.com"
         }
     ],
+    "require": {
+        "php": ">=5.6.0",
+        "laravel/framework": ">=5.1",
+        "vendor/package": "1.*"
+    }
     "autoload": {
         "psr-4": {
             "Trieunb\\Modules\\": "src/"
         }
     },
     "minimum-stability": "dev",
-    "require": {
-        "php": ">=5.6",
-        "laravel/framework": ">=5.1",
-        "vendor/package": "1.*"
-    }
 }
