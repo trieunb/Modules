@@ -45,73 +45,21 @@ This is how the generated module would look like:
 laravel-project/
     app/
     └── Modules/
-        └── FooBar/
+        └── Demo/
             ├── Controllers/
-            │   └── FooBarController.php
+            │   └── DemoController.php
             ├── Models/
-            │   └── FooBar.php
+            │   └── Demo.php
             ├── Views/
             │   └── index.blade.php
-            ├── Translations/
-            │   └── en/
-            │       └── example.php
-            ├── routes
-            │   ├── api.php
-            │   └── web.php
-            └── helper.php
+            └── routes.php
                 
 ```
 
 <a name="usage"></a>
 ## Usage
 
-The generated `RESTful Resource Controller` and the corresponding `routes.php` make it easy to dive in. In my example you would see the output from the `Modules/FooBar/Views/index.blade.php` when you open `laravel-project:8000/foo-bar` in your browser.
-
-
-#### Disable modules
-In case you want to disable one ore more modules, you can add a `modules.php` into your projects `app/config` folder. This file should return an array with the module names that should be **loaded**.
-F.a:
-```
-return [
-    'enable' => array(
-        "customer",
-        "contract",
-        "reporting",
-    ),
-];
-```
-In this case L5Modular would only load this three modules `customer` `contract` `reporting`. Every other module in the `app/Modules` folder would not be loaded.
-
-L5Modular will load all modules if there is no modules.php file in the config folder.
-
-#### Use a single `routes.php` file *(à la Laravel < v5.3)*
-
-Since version 1.4.0 the module structure has slightly changed. Instead of using a single routes file there is a routes folder with the route files `web.php` and `api.php`. No panic, the old fashioned routes file will be loaded anyways. So if you like it that way you can stick with the single routes file in the module-root folder.
-
-#### Load additional classes
-
-In some cases there is a need to load different additional classes into a module. Since Laravel loads the app using the PSR-4 autoloading standard, you can just add folders and files almost without limitations. The only thing you should keep in mind is to add the correct namespace.
-
-F.a. If you want to add the `App/Modules/FooBar/Services/FancyService.php` to your module, you can absolutely do so. The file could then look like this:
-```
-<?php 
-namespace App\Modules\FooBar\Services;
-
-class FancyService 
-{
-    public static function doFancyStuff() {
-        return 'some output';
-    } 
-}
-
-```
-
-#### Update to 1.3.0
-
-Since version 1.3.0 you have to follow the `upper camel case` name convention for the module folder. If you had a `Modules/foo` folder you have to rename it to `Modules/Foo`. 
-
-Also there are changes in the `app/config/modules.php` file. Now you have to return an array with the key `enable` instead of `list`.
-
+The generated `RESTful Resource Controller` and the corresponding `routes.php` make it easy to dive in. In my example you would see the output from the `Modules/Demo/Views/index.blade.php` when you open `laravel-project:8000/Demo` in your browser.
 
 ## License
 
