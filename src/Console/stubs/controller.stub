@@ -3,7 +3,7 @@
 namespace ModuleNamespace;
 
 use Illuminate\Http\Request;
-use DummyRootNamespaceHttp\Controllers\Controller;
+use ModuleRootNamespaceHttp\Controllers\Controller;
 
 class ModuleClass extends Controller
 {
