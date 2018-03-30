@@ -1,6 +1,6 @@
 # Modules
 [![Laravel](https://img.shields.io/badge/laravel-5-orange.svg)](http://laravel.com)
-[![Release](https://github.com/trieunb/Modules/v/stable)](https://github.com/trieunb/Modules)
+[![Release](https://poser.pugx.org/artem-schander/l5-modular/v/stable)](https://github.com/trieunb/Modules)
 [![Source](https://img.shields.io/badge/source-Artem_Schander-blue.svg)](https://github.com/trieunb/Modules)
 [![Contributor](https://img.shields.io/badge/contributor-Farhan Wazir-blue.svg)](https://github.com/trieunb)
 [![License](https://poser.pugx.org/artem-schander/l5-modular/license)](https://github.com/trieunb/Modules)
