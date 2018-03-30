@@ -11,14 +11,15 @@
         }
     ],
     "require": {
-        "php": ">=5.6.0",
+        "php": ">=5.6",
         "laravel/framework": ">=5.1",
         "vendor/package": "1.*"
-    }
+    },
     "autoload": {
         "psr-4": {
             "Trieunb\\Modules\\": "src/"
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "dev"
+    
 }
