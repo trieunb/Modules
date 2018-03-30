@@ -1,11 +1,11 @@
 <?php
 
-namespace ModuleNamespace;
+namespace DummyNamespace;
 
 use Illuminate\Http\Request;
-use ModuleRootNamespaceHttp\Controllers\Controller;
+use DummyRootNamespaceHttp\Controllers\Controller;
 
-class ModuleClass extends Controller
+class DummyClass extends Controller
 {
 
     /**
@@ -15,7 +15,7 @@ class ModuleClass extends Controller
      */
     public function index()
     {
-        return view("ModuleUCtitle::index");
+        return view("DummyUCtitle::index");
     }
 
     /**

@@ -124,8 +124,8 @@ class ModuleMakeCommand extends GeneratorCommand
      */
     protected function replaceName(&$stub, $name)
     {
-        $stub = str_replace('ModuleTitle', $name, $stub);
-        $stub = str_replace('ModuleUCtitle', ucfirst(studly_case($name)), $stub);
+        $stub = str_replace('DummyTitle', $name, $stub);
+        $stub = str_replace('DummyUCtitle', ucfirst(studly_case($name)), $stub);
         return $this;
     }
     /**
@@ -138,7 +138,7 @@ class ModuleMakeCommand extends GeneratorCommand
     protected function replaceClass($stub, $name)
     {
         $class = class_basename($name);
-        return str_replace('ModuleClass', $class, $stub);
+        return str_replace('DummyClass', $class, $stub);
     }
     /**
      * Get the stub file for the generator.
