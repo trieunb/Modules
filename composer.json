@@ -1,5 +1,5 @@
 {
-    "name": "ans-asia/modules",
+    "name": "trieunb-nguyen/modules",
     "description": "A package module of team ans-asia build for dev",
     "require-dev": {
         "laravel": "1.0"
@@ -12,7 +12,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "AnsAsia\\Modules\\": "src/"
+            "TrieuNguyen\\Modules\\": "src/"
         }
     },
     "minimum-stability": "dev",
