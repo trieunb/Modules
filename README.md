@@ -1,9 +1,4 @@
 # Modules
-[![Laravel](https://img.shields.io/badge/laravel-5-orange.svg)](http://laravel.com)
-[![Release](https://poser.pugx.org/artem-schander/l5-modular/v/stable)](https://github.com/trieunb/Modules)
-[![Source](https://img.shields.io/badge/source-Artem_Schander-blue.svg)](https://github.com/trieunb/Modules)
-[![Contributor](https://img.shields.io/badge/contributor-Farhan Wazir-blue.svg)](https://github.com/trieunb)
-[![License](https://poser.pugx.org/artem-schander/l5-modular/license)](https://github.com/trieunb/Modules)
 
 This package gives you the ability to use Laravel 5 with module system.
 You can simply drop or generate modules with their own controllers, models, views, translations and a routes file into the `app/Modules` folder and go on working with them.
