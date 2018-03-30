@@ -1,6 +1,8 @@
 {
     "name": "trieunb/modules",
+    "type": "package",
     "description": "A package module of team ans-asia build for dev",
+    "keywords": ["trieunb", "module"],
     "homepage": "https://github.com/trieunb/Modules",
     "license": "MIT",
     "version": "1.0.1",
