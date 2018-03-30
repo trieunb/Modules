@@ -24,13 +24,13 @@ The best way to install this package is through your terminal via Composer.
 
 Run the following command from your projects root
 ```
-composer require artem-schander/l5-modular
+composer require trieunb/modules
 ```
 Once this operation is complete, simply add the service provider to your project's `config/app.php` and you're done.
 
 #### Service Provider
 ```
-ArtemSchander\L5Modular\ModuleServiceProvider::class,
+Trieunb\Modules\ModuleServiceProvider::class,
 ```
 
 <a name="getting-started"></a>
