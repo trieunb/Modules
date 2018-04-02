@@ -124,6 +124,7 @@ class ModuleMakeCommand extends GeneratorCommand
      */
     protected function replaceName(&$stub, $name)
     {
+        $stub = str_replace('DummyPrefix', kebab_case($name), $stub);
         $stub = str_replace('DummyTitle', $name, $stub);
         $stub = str_replace('DummyUCtitle', ucfirst(studly_case($name)), $stub);
         return $this;

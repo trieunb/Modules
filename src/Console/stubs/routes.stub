@@ -1,7 +1,7 @@
 <?php
 
-Route::group(['module' => 'DummyUCtitle', 'namespace' => 'DummyNamespace\Controllers'], function() {
+Route::group(['module' => 'DummyUCtitle', 'prefix' => 'DummyPrefix', 'namespace' => 'DummyNamespace\Controllers'], function() {
 
-    Route::resource('DummyTitle', 'DummyUCtitleController');
+    Route::get('/', 'DummyUCtitleController@index');
 
 });

@@ -16,7 +16,7 @@ class ModuleServiceProvider extends ServiceProvider
     {
         //
         if (is_dir(app_path().'/Modules/')) {
-            $modules = config("modules.enable") ?: array_map('class_basename', $this->files->directories(app_path().'/Modules/'));
+            $modules = array_map('class_basename', $this->files->directories(app_path().'/Modules/'));
             foreach ($modules as $module) {
                 // Allow routes to be cached
                 if (!$this->app->routesAreCached()) {
