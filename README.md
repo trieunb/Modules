@@ -1,7 +1,7 @@
 # Modules
 
 This package gives you the ability to use Laravel 5 with module system.
-You can simply drop or generate modules with their own controllers, models, views, translations and a routes file into the `app/Modules` folder and go on working with them.
+You can simply drop or generate modules with their own controllers, models, views and a routes file into the `app/Modules` folder and go on working with them.
 
 Thanks to zyhn for the ["Modular Structure in Laravel 5" tutorial](https://github.com/trieunb/Modules). Well explained and helped a lot.
 
@@ -33,7 +33,7 @@ Trieunb\Modules\ModuleServiceProvider::class,
 
 The built in Artisan command `php artisan make:module name` generates a ready to use module in the `app/Modules` folder and a migration if necessary.
 
-Since version 1.3.0 you can generate modules named with more than one word, like `demo`.
+<!-- Since version 1.3.0 you can generate modules named with more than one word, like `demo`. -->
 
 This is how the generated module would look like:
 ```
