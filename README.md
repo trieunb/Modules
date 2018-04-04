@@ -58,7 +58,7 @@ The generated `RESTful Resource Controller` and the corresponding `routes.php` m
 
 ## License
 
-L5Modular is licensed under the terms of the [MIT License](http://opensource.org/licenses/MIT)
+modules is licensed under the terms of the [MIT License](http://opensource.org/licenses/MIT)
 (See LICENSE file for details).
 
 ---
